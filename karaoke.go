@@ -23,7 +23,7 @@ func main () {
   
   fmt.Println(karaMap)
   
-  dg, err := discordgo.New("Bot " + "MjEwNTU3NjQ5ODE5OTI2NTMx.C2HnBQ.wLuZ-SVkUHMiz2JwfqMUq96rckc")
+  dg, err := discordgo.New("Bot " + "nope")
   if err != nil {
     fmt.Println("Failed to authenticate with discord ", err)
     return
